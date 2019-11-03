@@ -15,6 +15,7 @@ import com.rod.skrin.activities.LoginActivity
 import com.rod.skrin.adapters.PagerAdapter
 import com.rod.skrin.extensions.gotoActivity
 import com.rod.skrin.fragments.ChatFragment
+import com.rod.skrin.fragments.FilmsFragment
 import com.rod.skrin.fragments.InfoFragment
 import com.rod.skrin.fragments.RatesFragment
 import kotlinx.android.synthetic.main.activity_main.*
@@ -31,6 +32,7 @@ class MainActivity : ToolbarActivity() {
 
         toolbarToLoad(toolbarView as Toolbar)
 
+
         setUpViewPager(getPagerAdapter())
         setUpBottomNavigationBar()
     }
@@ -38,7 +40,7 @@ class MainActivity : ToolbarActivity() {
     private fun getPagerAdapter():PagerAdapter{
         val adapter = PagerAdapter(supportFragmentManager)
         adapter.addFragment(InfoFragment())
-        adapter.addFragment(RatesFragment())
+        adapter.addFragment(FilmsFragment())
         adapter.addFragment(ChatFragment())
 
         return adapter
@@ -104,7 +106,10 @@ class MainActivity : ToolbarActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
 
+
+
         menuInflater.inflate(R.menu.general_options_menu,menu)
+
 
         return super.onCreateOptionsMenu(menu)
     }
@@ -119,6 +124,7 @@ class MainActivity : ToolbarActivity() {
                     flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 }
             }
+
         }
 
         return super.onOptionsItemSelected(item)

@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "22002129216",
-    "firebase_url": "https://finalapp-6e161.firebaseio.com",
-    "project_id": "finalapp-6e161",
-    "storage_bucket": "finalapp-6e161.appspot.com"
+    "project_number": "589529805135",
+    "firebase_url": "https://appskrin-3141a.firebaseio.com",
+    "project_id": "appskrin-3141a",
+    "storage_bucket": "appskrin-3141a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:22002129216:android:9d2653c72e0a3bd4f202a5",
+        "mobilesdk_app_id": "1:589529805135:android:5b3fc074d9c790bf3d553a",
         "android_client_info": {
-          "package_name": "com.rod.finalapp"
+          "package_name": "com.rod.skrin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "22002129216-1pruhm313igpfo2on03qru4badp52mj8.apps.googleusercontent.com",
+          "client_id": "589529805135-3n1cksd8tst1k1b0naqkjms49ld80k9c.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.rod.finalapp",
+            "package_name": "com.rod.skrin",
             "certificate_hash": "a87065d26db8cc7a462b5ab19e113c3a0b8a8552"
           }
         },
         {
-          "client_id": "22002129216-d2grqsb6pgao5negnsb2j8ksftun74bj.apps.googleusercontent.com",
+          "client_id": "589529805135-h1v6ii91mgbkahq1u08vigkfpr5rv82e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC3i7K_TdliVavFKK1NWDe7oOeoO0tp0wg"
+          "current_key": "AIzaSyDkpOXIBc7pGsrEpnrEnuE0bZvswVCE9Kk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "22002129216-d2grqsb6pgao5negnsb2j8ksftun74bj.apps.googleusercontent.com",
+              "client_id": "589529805135-h1v6ii91mgbkahq1u08vigkfpr5rv82e.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
