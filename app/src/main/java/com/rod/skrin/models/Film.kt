@@ -1,5 +1,6 @@
 package com.rod.skrin.models
 
+import android.graphics.drawable.Drawable
 import android.os.Parcelable
 import java.io.Serializable
 
@@ -13,5 +14,6 @@ data class Film (
     var genre: String = "",
     var duration: Int = 0,
     var description: String = "",
-    var profileImgURL: String = ""
+    var profileImgURL: String = "",
+    var imagen : Drawable? = null
 ): Serializable

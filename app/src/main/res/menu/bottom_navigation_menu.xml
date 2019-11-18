@@ -20,6 +20,6 @@
             android:id="@+id/bottom_nav_chat"
             android:enabled="true"
             android:icon="@drawable/ic_chat"
-            android:title="@string/navigation_bottom_chat"
+            android:title="@string/navigation_bottom_films"
             app:showAsAction="ifRoom"/>
 </menu>

@@ -14,14 +14,15 @@ import com.rod.skrin.activities.LoginActivity
 
 import com.rod.skrin.adapters.PagerAdapter
 import com.rod.skrin.extensions.gotoActivity
-import com.rod.skrin.fragments.ChatFragment
-import com.rod.skrin.fragments.FilmsFragment
-import com.rod.skrin.fragments.InfoFragment
-import com.rod.skrin.fragments.RatesFragment
+import com.rod.skrin.fragments.*
+import com.rod.skrin.models.Film
 import kotlinx.android.synthetic.main.activity_main.*
 
 
-class MainActivity : ToolbarActivity() {
+class MainActivity : ToolbarActivity(),FilmsFeedFragmentFragment.OnListFragmentInteractionListener{
+    override fun onListFragmentInteraction(item: Film?) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
 
     private var prevBottonSelected : MenuItem? = null
@@ -41,7 +42,7 @@ class MainActivity : ToolbarActivity() {
         val adapter = PagerAdapter(supportFragmentManager)
         adapter.addFragment(InfoFragment())
         adapter.addFragment(FilmsFragment())
-        adapter.addFragment(ChatFragment())
+        adapter.addFragment(FilmsFeedFragmentFragment())
 
         return adapter
     }

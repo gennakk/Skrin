@@ -14,8 +14,9 @@
 
     <!--Bottom Navigation View -->
     <string name="navigation_bottom_info">Info</string>
-    <string name="navigation_bottom_rates">Rates</string>
+    <string name="navigation_bottom_rates">Search</string>
     <string name="navigation_bottom_chat">Chat</string>
+    <string name="navigation_bottom_films">Films</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
